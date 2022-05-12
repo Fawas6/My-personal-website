@@ -1,0 +1,89 @@
+/*contactme.css*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.nav-link {
+    color: #2eaa2e !important;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.nav-item {
+    padding-right: 0px;
+}
+
+.active-contact {
+    color: #2c52a3 !important;
+}
+
+.nav-link:hover {
+    color: #2c52a3 !important;
+}
+
+.navbar-brand {
+    margin-top: -50px;
+}
+
+.navbar-toggler {
+    margin-top: -55px;
+} 
+
+.navbar-collapse {
+    margin-top: -50px;
+}
+
+body article #title h1{
+    color: #2c52a3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+body article #content #question h2 {
+    color: #2c52a3;
+    font-weight: bolder;
+    font-size: 35px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+body article #content .container form .form-floating label {
+    color: #2eaa2e;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+body article #content .container form .form-floating #txt {
+    color: #2c52a3;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+body article #content .container form .form-floating #email {
+    color: #2c52a3;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+body article #content .container form .form-floating #txtarea {
+    color: #2c52a3;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container {
+    position: relative;
+    top: 70px;
+    margin: 10px;
+}
+
+#txtarea {
+    height: 100px;
+}
+
+body article #content .container form .text-center .btn {
+    margin-bottom: 10px;
+}
