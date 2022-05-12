@@ -73,6 +73,13 @@
 
             <div class="container">
                 <form class="row g-3" action="https://formsubmit.co/e24c6bc9bfb331614e9eaf708b1fdb63" method="POST">
+
+                    <!--Honeypot-->
+                    <input type="text" name="_honey" style="display: none;">
+
+                    <!--Disable Captcha-->
+                    <input type="hidden" name="_captcha" value="false">
+
                     <div class="form-floating col-md-6">
                         <input type="text" class="form-control form-control-lg" id="txt" name="Name" placeholder="Name" required>
                         <label for="name">Name</label>
@@ -86,7 +93,7 @@
                         <label for="txtarea">How can I help you?</label>
                     </div>
                     <div class="text-center">
-                        <button class="btn btn-primary" name="submit" type="submit">Send!</button>
+                        <button class="btn btn-primary" type="submit">Send!</button>
                     </div>
                 </form>
             </div>
