@@ -34,6 +34,14 @@ body {
     margin-top: -50px;
 }
 
+body article #title h1{
+    color: #2c52a3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
 p {
     color: #2eaa2e;
+    text-align: center;
 }
