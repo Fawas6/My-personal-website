@@ -87,3 +87,9 @@ body article #content .container form .form-floating #txtarea {
 body article #content .container form .text-center {
     margin-bottom: 10px;
 }
+
+.error_message {
+    color: red;
+    font-weight: bold;
+    font-size: 15px
+}
