@@ -88,8 +88,8 @@ body article #content .container form .text-center {
     margin-bottom: 10px;
 }
 
-.error_message {
-    color: red;
+#error_message {
+    color: orangered;
     font-weight: bold;
-    font-size: 15px
+    font-size: 15px;
 }
