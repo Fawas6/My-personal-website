@@ -17,6 +17,6 @@ function validatelength(value, inputField) {
     };
 }
 
-fv.register("#txt", validatelength);
+fv.register("#txtname", validatelength);
 
 window.fv = fv;
