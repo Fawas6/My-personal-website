@@ -1,6 +1,6 @@
 //Form Validation
 
-export default class FormValidator {
+export default class formvalidator {
     constructor(selector) {
         this.form = document.querySelector(selector);
         this.inputsWithErrors = new Set();
@@ -20,7 +20,7 @@ export default class FormValidator {
 
     register(selector, check) {
         const inputField = this.form.querySelector(selector);
-        const errorElement = inputField.closest(".input").querySelector(".error_message");
+        const errorElement = inputField.closest(".form-floating").querySelector(".error_message");
 
         const execute = (hideErrors) => {
             const { pass, error } = check(inputField.value, inputField);
