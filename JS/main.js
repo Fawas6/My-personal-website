@@ -5,10 +5,10 @@ import formvalidator from "./formvalidator.js";
 const fv = new formvalidator(".row");
 
 function validatelength(value, inputField) {
-    if (value.length === 0 || value.length > 5) {
+    if (value.match(/^[A-Za-z]+$/)) {
         return {
             pass: false,
-            error: "Username must be between 1 - 5 characters."
+            error: "Name can only contain letters."
         };
     }
 
