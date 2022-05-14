@@ -28,13 +28,13 @@ body {
 
 .navbar-toggler {
     margin-top: -55px;
-} 
+}
 
 .navbar-collapse {
     margin-top: -50px;
 }
 
-body article #title h1{
+body article #title h1 {
     color: #2c52a3;
     text-align: center;
     font-weight: bold;
@@ -56,7 +56,7 @@ body article #content .container form .form-floating label {
     font-size: 15px;
 }
 
-body article #content .container form .form-floating #txt {
+body article #content .container form .form-floating #txtname {
     color: #2c52a3;
     font-weight: bold;
     font-size: 15px;
